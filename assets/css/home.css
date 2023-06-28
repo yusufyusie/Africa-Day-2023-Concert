@@ -212,6 +212,11 @@ h4 {
   background-repeat: repeat;
 }
 
+.program_details {
+  gap: 0.5rem;
+  padding: 2rem 0;
+}
+
 .program_card {
   display: grid;
   grid-template-columns: 15% 25% auto;
