@@ -403,6 +403,48 @@ footer {
 
 .all-rights-logo { width: 50%; }
 
+/* about page mobile */
+.container {
+  background-image: url(../images/about_bg-mobile.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  padding: 0%;
+}
+
+.imgwrapper {
+  display: grid;
+  margin: 1%;
+  padding: 2%;
+}
+
+.singleimg {
+  margin: auto auto 5% auto;
+}
+
+.imgabout {
+  position: relative;
+  width: auto;
+}
+
+.imgabout img {
+  height: 250px;
+  width: 350px;
+}
+
+.redmask {
+  padding: 30% 10% 5% 25%;
+  position: absolute;
+  margin: auto;
+  width: 100%;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background-color: #ec3723a4;
+  overflow: hidden;
+  transition: 0.5s ease;
+  height: 100%;
+}
+
 /* desktop version */
 @media only screen and (min-width: 768px) {
   .social-media {
@@ -511,4 +553,25 @@ footer {
  .more-btn {
     display: none;
   }
+
+  /* about page for desktop */
+  .imgwrapper {
+    display: flex;
+    flex-direction: row;
+  }
+
+  .singleimg {
+    margin: 3%;
+  }
+
+  .redmask {
+    width: auto;
+    padding: 30% 10% 5% 25%;
+  }
+
+  .imgabout img {
+    height: 300px;
+    width: 400px;
+  }
+
 }
