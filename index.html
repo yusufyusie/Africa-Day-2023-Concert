@@ -10,10 +10,10 @@
 <body>
     <section class="set-background">
     <header class="header">
-        <nav class="mobile-menu" aria-label="mobile-menu">
+        <nav id="mobile-menu-btn" class="mobile-menu" aria-label="mobile-menu">
             <div class="hamburger">
-                <a class="hamburger-btn" href=""><img src="./assets/icons/mobile_menu 1.svg" alt="hamburger mobile menu"></a>
-                <a class="close-btn" href=""><img src="./assets/icons/close-mobile-menu.svg" alt="cancel icon"></a>
+                <a id="home-btn" class="hamburger-btn" href=""><img src="./assets/icons/mobile_menu 1.svg" alt="hamburger mobile menu"></a>
+                <a id="closeid" class="close-btn" href=""><img src="./assets/icons/close-mobile-menu.svg" alt="cancel icon"></a>
             </div>
         </nav>
         <nav class="social-media" aria-label="social media icons">
@@ -25,12 +25,12 @@
                 <li><a href="#"></a>Logout</li>
             </ul>
         </nav>
-         <nav class="nav-bar" aria-label="nav bar">
+         <nav id="nav-bar" class="nav-bar" aria-label="nav bar">
             <div>
                 <a class="nav-bar-logo" href=""><img src="./assets/icons/logo.svg" alt="cc logo"></a>
             </div>
-            <div class="nav-bar-div">
-            <ul class="nav-bar-ul">
+            <div class="nav-bar-div" style="display: block;">
+            <ul id = "nav-bar-ul" class="nav-bar-ul" style="display: flex;">
                 <li class="nav-bar-list"><a href="./about.html">About</a></li>
                 <li class="nav-bar-list"><a href="#"></a>program</li>
                 <li class="nav-bar-list"><a href="#"></a>Sponsor</li>
@@ -39,7 +39,7 @@
         </nav>
     </header>
     <!-- add the introduction section -->
-    <section class="hero_container">
+    <section id="intro" class="hero_container">
         <article class="Hero">
             <h2 class="main-text-color">"Hello! Sharing World"</h2>
             <h1 class="title main-text-color">Africa Day 2023 concert to be held in Ethiopia</h1>
@@ -50,7 +50,7 @@
     </section>
 </section>
 <!-- this the program section -->
-<section class="program">
+<section id="main" class="program">
     <section class="program_content">
         <div class="title">
             <h2>Main Program</h2>
@@ -225,7 +225,8 @@
       </div>
     </div>
   </section>
-<footer class="footer">
+    <section class="all-rights">
+<footer id="footer" class="footer">
     <section class="all-rights">
        <div id="all-rights-logo-mobile"><img src="./assets/icons/logo.svg" alt="cc korea icon"></div>
        <div id="all-rights-info">
@@ -233,5 +234,6 @@
         </div>
     </section>
  </footer>
+ <script src="./assets/scripts/index.js"></script>
 </body>
 </html>
