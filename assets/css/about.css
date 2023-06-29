@@ -1,0 +1,339 @@
+@import url("https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap");
+
+@font-face {
+  font-family: "COCOGOOSE Regular";
+  font-style: normal;
+  font-weight: normal;
+  src: local("COCOGOOSE Regular"), url("./fonts/cocogoose_trial.woff") format("woff");
+}
+
+/* Lato */
+:root {
+  --main-color: #ec5242;
+  --dark-color: #272a31;
+  --primary-white: #fff;
+  --secondary-white: #d3d3d3;
+  scroll-behavior: smooth;
+}
+
+*,
+body,
+body * {
+  outline: none;
+  box-sizing: border-box;
+  font-family: "Lato", sans-serif;
+}
+
+body {
+  box-sizing: border-box;
+  margin: 0 auto;
+  overflow-x: hidden;
+}
+
+.hamburger-img {
+    position: relative;
+    margin-top: 30px;
+    width: 2rem;
+    height: 2rem;
+    opacity: 0.6;
+    margin-bottom: -124px;
+    display: block;
+    margin-left: 5%;
+}
+
+.my-logo {
+  display: none;
+}
+
+.nav-bar {
+  position: absolute;
+  inset: 0;
+  background-color: var(--main-color);
+  transform: translateX(-100%);
+  transition: 0.5s;
+  z-index: 10;
+  backdrop-filter: blur(0.25rem);
+}
+
+.overflow-hidden {
+  overflow: hidden;
+}
+
+.nav-bar-active {
+  transform: translateX(0%);
+}
+
+.exit {
+  position: absolute;
+  right: 40px;
+  top: 25px;
+}
+
+.nav-bar li {
+  font-size: 25px;
+  font-weight: bold;
+  color: var(--secondary-white);
+  margin-bottom: 25px;
+}
+
+.nav-bar-ul {
+  flex-direction: column;
+  margin: 50px;
+}
+
+.nav-bar-ul li {
+  list-style: none;
+}
+
+.nav-bar-ul a {
+  color: var(--dark-color);
+  margin-right: 25px;
+  font-size: 30px;
+  font-weight: bold;
+  text-decoration: none;
+}
+
+.social-media {
+  display: none;
+}
+
+article.center-text {
+  text-align: center;
+}
+
+.set-background {
+    background-image: url(../images/bg/about_bg_mobile.png);
+    background-repeat: no-repeat;
+    background-size: 92% 80%;
+    background-position: center;
+    padding-block: 5rem;
+    margin: 0% 1%;
+}
+  h1 {
+    font-weight: 900;
+    font-size: 2rem;
+    text-transform: uppercase;
+    background-image: url(../images/text-bg.jpg);
+    background-clip: inherit;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    display: block;
+    text-align: center;
+  }
+
+  .container{
+   margin-top: 155px;
+  }
+
+  .imgwrapper {
+    display: grid;
+    margin: 1%;
+    padding: 2%;
+  }
+  
+  .singleimg {
+    margin: auto auto 5% auto;
+  }
+  
+  .imgabout {
+    position: relative;
+    width: auto;
+  }
+  
+  .imgabout img {
+    height: 250px;
+    width: 350px;
+  }
+  
+  .redmask {
+    padding: 30% 10% 5% 25%;
+    position: absolute;
+    margin: auto;
+    width: 100%;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-color: #ec3723a4;
+    overflow: hidden;
+    transition: 0.5s ease;
+    height: 100%;
+  }
+  
+  @media screen and (max-width: 768px) {
+    /* .home-phone {
+      display: none;
+    } */
+  
+.nav-bar-ul button {
+      display: none;
+    }
+  }
+
+  footer {
+    padding: 50px 20px;
+  }
+  
+  .footer {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 60px;
+  }
+  
+  .all-rights {
+    display: flex;
+    background-color: #fff;
+    align-items: center;
+    padding: 1rem;
+    gap: 2rem;
+  }
+  
+  .all-rights-detail {
+    display: none;
+  }
+  
+  .all-rights-logo-mobile {
+    display: none;
+  }
+  
+  .all-rights-logo {
+    width: 50%;
+  }
+  
+  /* desktop version */
+  @media only screen and (min-width: 768px) {
+.set-background {
+    background-image: url("../images/bg/about_bg_01.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 80% 40%;
+    padding-block: 4rem;
+    opacity: 1;
+    padding-inline: 8vw;
+    }
+    .hamburger-img {
+      display: none;
+    }
+  
+    .exit {
+      display: none;
+    }
+  
+    .set-background {
+      padding-inline: 0;
+    }
+  
+    .social-media {
+        background-color: var(--dark-color);
+        color: var(--primary-white);
+        display: flex;
+        flex-direction: row;
+        justify-content: flex-end;
+        position: fixed;
+        width: 100vw;
+        align-items: center;
+        align-content: center;
+        margin-top: 0px;
+    }
+  
+    .social-media ul {
+      display: flex;
+      list-style-type: none;
+      align-items: center;
+      gap: 1px;
+      padding: 0 1%;
+    }
+  
+    .social-media ul li {
+      list-style-type: none;
+      align-items: center;
+      padding: 0 1rem;
+    }
+  
+    .social-media ul li a {
+      color: var(--secondary-white);
+      text-decoration: none;
+      font-size: 15px;
+    }
+  
+    .social-media img {
+      width: 22px;
+      height: 22px;
+    }
+  
+    .header {
+      padding: 0;
+      margin: 0;
+      width: 100vw;
+      display: flex;
+      justify-content: space-around;
+      position: fixed;
+    }
+  
+    .nav-bar {
+        all: unset;
+        width: 100vw;
+        position: fixed;
+        margin-top: 41px;
+        background-color: #fff;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        padding: 0rem 1%;
+    }
+  
+    .nav-bar-ul {
+      display: flex;
+      flex-direction: row;
+      width: auto;
+      height: auto;
+      font-size: 1rem;
+      position: initial;
+      margin: 2%;
+    }
+  
+    .nav-bar-ul li {
+      display: flex;
+      flex-direction: row;
+      width: auto;
+      height: auto;
+      position: initial;
+    }
+  
+    .nav-bar-ul a {
+      font-family: "lato", sans-serif;
+    }
+  
+    #un-camp {
+      border: 6px solid var(--main-color);
+      color: var(--orange);
+      padding: 1px;
+      font-size: 20px;
+      margin-top: -5%;
+      margin-left: 0.8rem;
+    }
+  
+    .my-logo {
+      display: block;
+    }
+     /* about page for desktop */
+  .imgwrapper {
+    display: flex;
+    flex-direction: row;
+  }
+
+  .singleimg {
+    margin: 3%;
+  }
+
+  .redmask {
+    width: auto;
+    padding: 30% 10% 5% 25%;
+  }
+
+  .imgabout img {
+    height: 300px;
+    width: 400px;
+  }
+}
