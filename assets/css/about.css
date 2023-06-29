@@ -13,6 +13,7 @@
   --dark-color: #272a31;
   --primary-white: #fff;
   --secondary-white: #d3d3d3;
+
   scroll-behavior: smooth;
 }
 
@@ -31,14 +32,14 @@ body {
 }
 
 .hamburger-img {
-    position: relative;
-    margin-top: 30px;
-    width: 2rem;
-    height: 2rem;
-    opacity: 0.6;
-    margin-bottom: -124px;
-    display: block;
-    margin-left: 5%;
+  position: relative;
+  margin-top: 30px;
+  width: 2rem;
+  height: 2rem;
+  opacity: 0.6;
+  margin-bottom: -124px;
+  display: block;
+  margin-left: 5%;
 }
 
 .my-logo {
@@ -102,108 +103,109 @@ article.center-text {
 }
 
 .set-background {
-    background-image: url(../images/bg/about_bg_mobile.png);
-    background-repeat: no-repeat;
-    background-size: 92% 80%;
-    background-position: center;
-    padding-block: 5rem;
-    margin: 0% 1%;
+  background-image: url(../images/bg/about_bg_mobile.png);
+  background-repeat: no-repeat;
+  background-size: 92% 80%;
+  background-position: center;
+  padding-block: 5rem;
+  margin: 0% 1%;
 }
-  h1 {
-    font-weight: 900;
-    font-size: 2rem;
-    text-transform: uppercase;
-    background-image: url(../images/text-bg.jpg);
-    background-clip: inherit;
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
-    display: block;
-    text-align: center;
-  }
 
-  .container{
-   margin-top: 155px;
-  }
+h1 {
+  font-weight: 900;
+  font-size: 2rem;
+  text-transform: uppercase;
+  background-image: url(../images/text-bg.jpg);
+  background-clip: inherit;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  display: block;
+  text-align: center;
+}
 
-  .imgwrapper {
-    display: grid;
-    margin: 1%;
-    padding: 2%;
-  }
-  
-  .singleimg {
-    margin: auto auto 5% auto;
-  }
-  
-  .imgabout {
-    position: relative;
-    width: auto;
-  }
-  
-  .imgabout img {
-    height: 250px;
-    width: 350px;
-  }
-  
-  .redmask {
-    padding: 30% 10% 5% 25%;
-    position: absolute;
-    margin: auto;
-    width: 100%;
-    bottom: 0;
-    left: 0;
-    right: 0;
-    background-color: #ec3723a4;
-    overflow: hidden;
-    transition: 0.5s ease;
-    height: 100%;
-  }
-  
-  @media screen and (max-width: 768px) {
-    /* .home-phone {
+.container {
+  margin-top: 155px;
+}
+
+.imgwrapper {
+  display: grid;
+  margin: 1%;
+  padding: 2%;
+}
+
+.singleimg {
+  margin: auto auto 5% auto;
+}
+
+.imgabout {
+  position: relative;
+  width: auto;
+}
+
+.imgabout img {
+  height: 250px;
+  width: 350px;
+}
+
+.redmask {
+  padding: 30% 10% 5% 25%;
+  position: absolute;
+  margin: auto;
+  width: 100%;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background-color: #ec3723a4;
+  overflow: hidden;
+  transition: 0.5s ease;
+  height: 100%;
+}
+
+@media screen and (max-width: 768px) {
+  /* .home-phone {
       display: none;
     } */
-  
-.nav-bar-ul button {
-      display: none;
-    }
-  }
 
-  footer {
-    padding: 50px 20px;
-  }
-  
-  .footer {
-    width: 100%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    gap: 60px;
-  }
-  
-  .all-rights {
-    display: flex;
-    background-color: #fff;
-    align-items: center;
-    padding: 1rem;
-    gap: 2rem;
-  }
-  
-  .all-rights-detail {
+  .nav-bar-ul button {
     display: none;
   }
-  
-  .all-rights-logo-mobile {
-    display: none;
-  }
-  
-  .all-rights-logo {
-    width: 50%;
-  }
-  
-  /* desktop version */
-  @media only screen and (min-width: 768px) {
-.set-background {
+}
+
+footer {
+  padding: 50px 20px;
+}
+
+.footer {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 60px;
+}
+
+.all-rights {
+  display: flex;
+  background-color: #fff;
+  align-items: center;
+  padding: 1rem;
+  gap: 2rem;
+}
+
+.all-rights-detail {
+  display: none;
+}
+
+.all-rights-logo-mobile {
+  display: none;
+}
+
+.all-rights-logo {
+  width: 50%;
+}
+
+/* desktop version */
+@media only screen and (min-width: 768px) {
+  .set-background {
     background-image: url("../images/bg/about_bg_01.png");
     background-repeat: no-repeat;
     background-position: center;
@@ -211,113 +213,111 @@ article.center-text {
     padding-block: 4rem;
     opacity: 1;
     padding-inline: 8vw;
-    }
-    .hamburger-img {
-      display: none;
-    }
-  
-    .exit {
-      display: none;
-    }
-  
-    .set-background {
-      padding-inline: 0;
-    }
-  
-    .social-media {
-        background-color: var(--dark-color);
-        color: var(--primary-white);
-        display: flex;
-        flex-direction: row;
-        justify-content: flex-end;
-        position: fixed;
-        width: 100vw;
-        align-items: center;
-        align-content: center;
-        margin-top: 0px;
-    }
-  
-    .social-media ul {
-      display: flex;
-      list-style-type: none;
-      align-items: center;
-      gap: 1px;
-      padding: 0 1%;
-    }
-  
-    .social-media ul li {
-      list-style-type: none;
-      align-items: center;
-      padding: 0 1rem;
-    }
-  
-    .social-media ul li a {
-      color: var(--secondary-white);
-      text-decoration: none;
-      font-size: 15px;
-    }
-  
-    .social-media img {
-      width: 22px;
-      height: 22px;
-    }
-  
-    .header {
-      padding: 0;
-      margin: 0;
-      width: 100vw;
-      display: flex;
-      justify-content: space-around;
-      position: fixed;
-    }
-  
-    .nav-bar {
-        all: unset;
-        width: 100vw;
-        position: fixed;
-        margin-top: 41px;
-        background-color: #fff;
-        display: flex;
-        justify-content: space-around;
-        align-items: center;
-        padding: 0rem 1%;
-    }
-  
-    .nav-bar-ul {
-      display: flex;
-      flex-direction: row;
-      width: auto;
-      height: auto;
-      font-size: 1rem;
-      position: initial;
-      margin: 2%;
-    }
-  
-    .nav-bar-ul li {
-      display: flex;
-      flex-direction: row;
-      width: auto;
-      height: auto;
-      position: initial;
-    }
-  
-    .nav-bar-ul a {
-      font-family: "lato", sans-serif;
-    }
-  
-    #un-camp {
-      border: 6px solid var(--main-color);
-      color: var(--orange);
-      padding: 1px;
-      font-size: 20px;
-      margin-top: -5%;
-      margin-left: 0.8rem;
-    }
-  
-    .my-logo {
-      display: block;
-    }
-     /* about page for desktop */
+  }
+
+  .hamburger-img {
+    display: none;
+  }
+
+  .exit {
+    display: none;
+  }
+
+  .social-media {
+    background-color: var(--dark-color);
+    color: var(--primary-white);
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    position: fixed;
+    width: 100vw;
+    align-items: center;
+    align-content: center;
+    margin-top: 0;
+  }
+
+  .social-media ul {
+    display: flex;
+    list-style-type: none;
+    align-items: center;
+    gap: 1px;
+    padding: 0 1%;
+  }
+
+  .nav-bar-ul li {
+    display: flex;
+    flex-direction: row;
+    width: auto;
+    height: auto;
+    position: initial;
+  }
+
+  .nav-bar-ul a {
+    font-family: "lato", sans-serif;
+  }
+
+  .social-media ul li {
+    list-style-type: none;
+    align-items: center;
+    padding: 0 1rem;
+  }
+
+  .social-media ul li a {
+    color: var(--secondary-white);
+    text-decoration: none;
+    font-size: 15px;
+  }
+
+  .social-media img {
+    width: 22px;
+    height: 22px;
+  }
+
+  .header {
+    padding: 0;
+    margin: 0;
+    width: 100vw;
+    display: flex;
+    justify-content: space-around;
+    position: fixed;
+  }
+
+  .nav-bar {
+    all: unset;
+    width: 100vw;
+    position: fixed;
+    margin-top: 41px;
+    background-color: #fff;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 0 1%;
+  }
+
+  .nav-bar-ul {
+    display: flex;
+    flex-direction: row;
+    width: auto;
+    height: auto;
+    font-size: 1rem;
+    position: initial;
+    margin: 2%;
+  }
+
+  #un-camp {
+    border: 6px solid var(--main-color);
+    color: var(--orange);
+    padding: 1px;
+    font-size: 20px;
+    margin-top: -5%;
+    margin-left: 0.8rem;
+  }
+
+  .my-logo {
+    display: block;
+  }
+
+  /* about page for desktop */
   .imgwrapper {
     display: flex;
     flex-direction: row;

@@ -13,6 +13,7 @@
   --dark-color: #272a31;
   --primary-white: #fff;
   --secondary-white: #d3d3d3;
+
   scroll-behavior: smooth;
 }
 
@@ -135,7 +136,6 @@ h1 {
   -webkit-text-fill-color: transparent;
   display: block;
   background-size: cover;
-  padding-bottom: 10px;
   margin-top: 10px;
   padding-bottom: 20px;
 }
@@ -151,8 +151,8 @@ h1 {
   display: block;
   margin-block-start: 1em;
   margin-block-end: 1em;
-  margin-inline-start: 0px;
-  margin-inline-end: 0px;
+  margin-inline-start: 0;
+  margin-inline-end: 0;
   border: solid #fff;
   background-color: #d3d3d347;
   font-size: 0.9rem;
@@ -163,8 +163,8 @@ h1 {
 h3 {
   margin-block-start: 1.33em;
   margin-block-end: 1.33em;
-  margin-inline-start: 0px;
-  margin-inline-end: 0px;
+  margin-inline-start: 0;
+  margin-inline-end: 0;
 }
 
 p.date {
@@ -176,8 +176,8 @@ h4 {
   display: block;
   margin-block-start: 1em;
   margin-block-end: 1em;
-  margin-inline-start: 0px;
-  margin-inline-end: 0px;
+  margin-inline-start: 0;
+  margin-inline-end: 0;
 }
 
 .main-text-color {
@@ -309,6 +309,13 @@ article#featured-speakers {
   overflow-wrap: break-word;
 }
 
+.partners h2 {
+  color: var(--secondary-white);
+  margin-top: 1%;
+  font-size: 2rem;
+  font-weight: 600;
+}
+
 article#featured-speakers h2 {
   margin: 0;
   padding: 2rem 1rem 0;
@@ -386,19 +393,6 @@ a#more-program-desktop {
   padding: 50px 10px;
 }
 
-.partners h2 {
-  color: var(--secondary-white);
-  margin-top: 1%;
-  font-size: 2rem;
-  font-weight: 600;
-}
-
-.red-line {
-  width: 7vw;
-  padding-top: 1rem;
-  margin-left: 46%;
-}
-
 .group2 {
   display: flex;
   flex-direction: column;
@@ -474,10 +468,6 @@ footer {
     display: none;
   }
 
-  .set-background {
-    padding-inline: 0;
-  }
-
   .social-media {
     background-color: var(--dark-color);
     color: var(--primary-white);
@@ -497,6 +487,18 @@ footer {
     align-items: center;
     gap: 1px;
     padding: 0 1%;
+  }
+
+  .nav-bar-ul li {
+    display: flex;
+    flex-direction: row;
+    width: auto;
+    height: auto;
+    position: initial;
+  }
+
+  .nav-bar-ul a {
+    font-family: "lato", sans-serif;
   }
 
   .social-media ul li {
@@ -534,7 +536,7 @@ footer {
     display: flex;
     justify-content: space-around;
     align-items: center;
-    padding: 0rem 1%;
+    padding: 0 1%;
   }
 
   .nav-bar-ul {
@@ -545,18 +547,6 @@ footer {
     font-size: 1rem;
     position: initial;
     margin: 2%;
-  }
-
-  .nav-bar-ul li {
-    display: flex;
-    flex-direction: row;
-    width: auto;
-    height: auto;
-    position: initial;
-  }
-
-  .nav-bar-ul a {
-    font-family: "lato", sans-serif;
   }
 
   #un-camp {
@@ -640,7 +630,7 @@ footer {
     display: block;
   }
 
-  /*Partner Section  */
+  /* Partner Section  */
   .partners {
     padding: 0 calc(min(35px, 5%));
   }

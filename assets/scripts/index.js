@@ -1,4 +1,5 @@
 /* ARRAY OF OBJECTS  */
+
 const speakers = [
   {
     image: './assets/images/speaker_01.png',
@@ -52,30 +53,28 @@ const nodes = document.getElementsByTagName('article');
 const lastNode = document.getElementsByTagName('article')[nodes.length - 1];
 lastNode.parentNode.insertBefore(article, lastNode.nextSibling);
 
-
 const dynamicSpeakerSection = document.querySelector('.speaker-section');
 const createSpeakers = (nbr) => {
   let featuredSpeakersContent = '';
-  for (let s = 0; s < nbr; s += 1) { 
+  for (let i = 0; i < nbr; i += 1) {
     featuredSpeakersContent += `
         <div class="speaker-section-div">
           <div class="speaker-img">
             <div id="speaker-section-img-container">
-              <img id="speaker-section-img" src=${speakers[s].image} alt=${speakers[s].fullName}>
+              <img id="speaker-section-img" src=${speakers[i].image} alt=${speakers[i].fullName}>
             </div>
           </div>
           <div class="speaker-details">
-            <h3>${speakers[s].fullName}</h3>
-            <h4>${speakers[s].title}</h4>
+            <h3>${speakers[i].fullName}</h3>
+            <h4>${speakers[i].title}</h4>
             <div class="red-line"><img src="./assets/images/red-line.jpg" alt="title underline"></div>
-            <p>${speakers[s].bio}</p>
+            <p>${speakers[i].bio}</p>
           </div>
         </div>
     `;
   }
   dynamicSpeakerSection.innerHTML = featuredSpeakersContent;
 };
-
 
 const moreBtn = document.getElementById('more-speakers');
 
