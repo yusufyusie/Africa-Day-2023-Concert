@@ -4,38 +4,34 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    <script src="https://kit.fontawesome.com/1f634f9b31.js" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="./assets/css/home.css">
+    <script src="https://kit.fontawesome.com/1f634f9b31.js" crossorigin="anonymous"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lato:wght@100;300;400;700;900&display=swap" rel="stylesheet">
 </head>
 <body>
     <section class="set-background">
     <header class="header">
-        <nav id="mobile-menu-btn" class="mobile-menu" aria-label="mobile-menu">
-            <div class="hamburger">
-                <a id="home-btn" class="hamburger-btn" href=""><img src="./assets/icons/mobile_menu 1.svg" alt="hamburger mobile menu"></a>
-                <a id="closeid" class="close-btn" href=""><img src="./assets/icons/close-mobile-menu.svg" alt="cancel icon"></a>
-            </div>
-        </nav>
         <nav class="social-media" aria-label="social media icons">
             <ul class="social-media-ul">
                 <li><a href=""><img src="./assets/images/social-media-images/facebook.png" alt=""></a></li>
                 <li><a href=""><img src="./assets/images/social-media-images/twitter.png" alt=""></a></li>
-                <li><a href="">English</a></li>
+                <li><a href="#">English</a></li>
                 <li><a href="https://github.com/yusufyusice">My github page</a></li>
-                <li><a href="#"></a>Logout</li>
+                <li><a href="#">Logout</a></li>
             </ul>
         </nav>
-         <nav id="nav-bar" class="nav-bar" aria-label="nav bar">
-            <div>
-                <a class="nav-bar-logo" href=""><img src="./assets/icons/logo.svg" alt="cc logo"></a>
-            </div>
-            <div class="nav-bar-div" style="display: block;">
-            <ul id = "nav-bar-ul" class="nav-bar-ul" style="display: flex;">
-                <li class="nav-bar-list"><a href="./about.html">About</a></li>
-                <li class="nav-bar-list"><a href="#"></a>program</li>
+          <img id="hamburger-img" class="hamburger-img" src="./assets/icons/menu.png" alt="hamburger mobile menu">
+         <nav class="nav-bar" aria-label="nav bar">
+            <img class="my-logo" src="./assets/icons/logo.svg" alt="cc logo">
+            <img class="exit" src="./assets/icons/exit.svg" alt="cancel icon">
+            <ul class="nav-bar-ul">
+                <li class="nav-bar-list"><a href="about.html">About</a></li>
+                <li class="nav-bar-list"><a href="#"></a>Program</li>
                 <li class="nav-bar-list"><a href="#"></a>Sponsor</li>
+                <li><button id="un-camp" type="button">CC Campaign</button></li>
             </ul>
-            </div>
         </nav>
     </header>
     <!-- add the introduction section -->
@@ -102,7 +98,7 @@
     </section>
 </section>
 <!-- add the speaker or the particpant person -->
-<section class="speakers">
+<section class="speakers home-phone">
     <section class="speaker_content">
         <div class="title">
             <h2>Featured Speaker</h2>
@@ -226,7 +222,7 @@
     </div>
   </section>
     <section class="all-rights">
-<footer id="footer" class="footer">
+<footer id="footer" class="footer home-phone">
     <section class="all-rights">
        <div id="all-rights-logo-mobile"><img src="./assets/icons/logo.svg" alt="cc korea icon"></div>
        <div id="all-rights-info">
