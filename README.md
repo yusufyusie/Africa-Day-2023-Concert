@@ -1,53 +1,64 @@
+<a name="readme-top"></a>
 
-# Africa Day 2023 concert to be held in Ethiopia
+# 📗 Table of Contents
 
-> .This project is Myfirst Capstone project Like real world Projects, It is about a concert for the music indestry to intertain, culture exchange and help adults, needy people, orphans and refugees made with html,css and javascript
+- [📗 Table of Contents](#-table-of-contents)
+- [📖 Portfolio ](#-portfolio-)
+  - [🛠 Built With ](#-built-with-)
+    - [Tech Stack ](#tech-stack-)
+    - [Key Features ](#key-features-)
+  - [🚀 Live Demo ](#-live-demo-)
+  - [💻 Getting Started ](#-getting-started-)
+    - [Prerequisites](#prerequisites)
+    - [Setup](#setup)
+    - [Install](#install)
+    - [Usage](#usage)
+    - [Run tests](#run-tests)
+    - [Deployment ](#deployment-)
+  - [👤 Author ](#-author-)
+  - [🔭 Future Features ](#-future-features-)
+  - [🤝 Contributing ](#-contributing-)
+  - [⭐️ Show your support ](#️-show-your-support-)
+  - [🙏 Acknowledgments ](#-acknowledgments-)
+  - [❓ FAQ ](#-faq-)
+  - [📝 License ](#-license-)
 
+# 📖 Portfolio <a name="about-project"></a>
 
+**African Day 2023 Concert held in Ethiopia** is Myfirst Capstone project Like real world Projects, It is about a concert for the music indestry to intertain, culture exchange and help adults, needy people, orphans and refugees made with html,css and javascript.
 <img src="desktop" width="70%" /><img src="mobile" width="30%" />
 
-## Built With
+## 🛠 Built With <a name="built-with"></a>
 
-- Languages: _**HTML, CSS, JavaScript**_
-- Frameworks: _**N/A**_
-- Technologies used: _**GIT, GITHUB, LINTERS**_
+### Tech Stack <a name="tech-stack"></a>
 
-## I used the following guidelines from the template.
+<details>
+  <summary>Client</summary>
+  <ul>
+    <li><a href="https://developer.mozilla.org/en-US/docs/Learn/Getting_started_with_the_web/HTML_basics">HTML5</a></li>
+    <li><a href="https://developer.mozilla.org/en-US/docs/Learn/Getting_started_with_the_web/CSS_basics">CSS3</a></li>
+    <li><a href="https://developer.mozilla.org/en-US/docs/Learn/Getting_started_with_the_web/Javascript_basics">JavaScript</a></li>
+  </ul>
+</details>
+- [] Frameworks: _**Bootstrap 5**_
+- [] Technologies used: **GIT, GITHUB, LINTERS**_
 
-- **Colors**. 
+### Key Features <a name="key-features"></a>
+
+- **Responsive Design.**
+- **Toolbar or Header.**
+- **Colors**.
 - **Typography**: COCOGOOSE and Lato as fonts, size and weight.
 - **Layout**: composition and space between elements.
+- **Mobile**: up to 768px wide.
+- **Desktop**: 768px or wider.
 - The pages look almost identical to the original design.
-
-## I built these 2 pages:
-
 - The home page.
 - The about page.
 
-## Each of these pages should have versions for 2 different screen sizes:
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-- **Mobile**: up to 768px wide.
-- **Desktop**: 768px or wider.
-
-## Interactions:
-
-- The home page has a link in the menu to the about page.
-- The logo in the header links to the home page.
-- **Mobile menu**
-   - When the user clicks the hamburger button on the header, the mobile menu appears over the page.
-   - The mobile menu has a close (X) button that closes the menu.
-- **Dynamic page**
-   - The section "Featured speakers" should be created dynamically in JavaScript.
-   - You should use a JavaScript variable with the data about the speakers and use it when the page loads to create the HTML for this section dynamically.
- 
-> Original design idea by Cindy Shin in Behance.
-
-## Additional tools
- - Google fonts
- - Figma 
- - Cindy Shin in Behance.
-
-## Live Demo
+## 🚀 Live Demo <a name="live-demo"></a>
 
 [See My project Live here]()
 
@@ -55,52 +66,134 @@
 
 [Watch video from here]()
 
-## Getting Started
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-**project doesn't require testing.**
+## 💻 Getting Started <a name="getting-started"></a>
 
-
-To get a local copy up and running follow these simple example steps.
+To get a local copy up and running, follow these steps.
 
 ### Prerequisites
-    - npm
-    - git
+
+In order to run this project you need:
+
+- A web browser to view output e.g [Google Chrome](https://www.google.com/chrome/).
+- An IDE e.g [Visual studio code](https://code.visualstudio.com/).
+- `node` should be installed in your local machine, [node website](https://nodejs.org/en/download/).
+- Install the `npm` package manager use this [to install both node and npm](https://docs.npmjs.com/downloading-and-installing-node-js-and-npm).
+- [A terminal](https://code.visualstudio.com/docs/terminal/basics).
 
 ### Setup
 
-open a terminal and run ```git clone git@github.com:Leboroz/capstone-project-1.git```
+Clone this repository to your desired folder or download the Zip folder:
+
+git clone https://github.com/yusufyusie/Africa-Day-2023-Concert.git
+
+- Navigate to the location of the folder in your machine:
+
+**`you@your-Pc-name:~$ cd african day 2023 concert`**
+
+### Install
+
+To install all dependencies, run:
+
+npm install
 
 ### Usage
 
-opening the html file will let you see the live version.
+To run the project, follow these instructions:
 
-## Authors
-👤 **Yusuf Fenta**
+- After Cloning this repo to your local machine.
+- Open the `index.html` in your browser.
 
- Platform | Badge |
- --- | --- |
- **GitHub**  | [@yusufyusie](https://github.com/yusufyusie)
- **Twitter** | [yusufyusiee](https://twitter.com/yusufyusiee)
- **LinkdIn** | [yusufyusie](https://www.linkedin.com/in/yusufyusie/)
+### Run tests
 
+To run tests, run the following command:
 
-## 🤝 Contributing
+- Track HTML linter errors run:
+
+npx hint .
+
+- Track CSS linter errors run:
+
+npx stylelint "\*_/_.{css,scss}"
+
+### Deployment <a name="deployment"></a>
+
+You can deploy this project using: GitHub Pages,
+
+- I will use GitHub Pages to deploy my website.
+- Coming Soon".
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+## 👤 Author <a name="author"></a>
+
+👤 **Yesuf Fenta**
+
+- GitHub: [@yusufyusie](https://github.com/yusufyusie)
+- LinkedIn: [yusufyusie](https://www.linkedin.com/in/yusufyusie/)
+- Twitter: [yusufyusiee](https://twitter.com/yusufyusiee)
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+## 🔭 Future Features <a name="future-features"></a>
+
+- [ ] **Implement Transitions Animation for hover effect.**
+- [ ] **Implement a about and home pages.**
+- [ ] **Add more pages.**
+- The home page has a link in the menu to the about page.
+- The logo in the header links to the home page.
+- [] **Mobile menu**
+  - When the user clicks the hamburger button on the header, the mobile menu appears over the page.
+  - The mobile menu has a close (X) button that closes the menu.
+- [] **Dynamic page**
+  - The section "Featured speakers" should be created dynamically in JavaScript.
+  - You should use a JavaScript variable with the data about the speakers and use it when the page loads to create the HTML for this section dynamically.
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+## 🤝 Contributing <a name="contributing"></a>
 
 Contributions, issues, and feature requests are welcome!
 
-Feel free to check the [issues page]().
+Feel free to check the [issues page](../../issues/).
 
-## Show your support
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-Give a ⭐️ if you like this project!
+## ⭐️ Show your support <a name="support"></a>
 
-## Acknowledgments
+Give a ⭐️ if you like this project and how I managed to build it!
 
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+## 🙏 Acknowledgments <a name="acknowledgements"></a>
+
+- Project from [Microverse](https://www.microverse.org/) html & css module.
+- Thanks to the Microverse team for the great curriculum.
+- Thanks to the Code Reviewer(s) for the insightful feedbacks.
+- A great thanks to My coding partner(s), morning session team, and standup team for their contributions.
+- Hat tip to anyone whose code was used.
 - The Original design idea by [[Cindy Shin] Behance/](https://www.behance.net/adagio07) in Behance.
 - Hat tip to anyone whose code was used
 - Inspiration
 - etc
 
-## 📝 License
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-This project is [MIT](/LICENSE) licensed.
+## ❓ FAQ <a name="faq"></a>
+
+- **Can I fork and reuse the repository**
+
+  - Yes please, feel free.
+
+- **Can I improve the repository, and my changes will be accepted if they are good?**
+
+  - Yes please, nice ideas are welcome, please.
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+## 📝 License <a name="license"></a>
+
+This project is [MIT](./MIT) licensed.
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
