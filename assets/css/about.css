@@ -127,6 +127,20 @@ h1 {
   margin-top: 155px;
 }
 
+.container p {
+  font-size: 0.9rem;
+  font-weight: 600;
+  line-height: 1.6rem;
+}
+
+.submitabout {
+  margin: 30px auto 0 auto;
+  width: 30%;
+  margin-top: 40px;
+  margin-bottom: 40px;
+  border-radius: 10px;
+}
+
 .imgwrapper {
   display: grid;
   margin: 1%;
@@ -286,7 +300,7 @@ footer {
     all: unset;
     width: 100vw;
     position: fixed;
-    margin-top: 41px;
+    margin-top: 40px;
     background-color: #fff;
     display: flex;
     justify-content: space-around;
@@ -317,7 +331,22 @@ footer {
     display: block;
   }
 
+  .container p {
+    font-size: 1rem;
+    font-weight: 650;
+    line-height: 1.6rem;
+    opacity: 0.9;
+  }
+
   /* about page for desktop */
+  .submitabout {
+    margin: 30px auto 0 auto;
+    width: 30%;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    border-radius: 10px;
+  }
+
   .imgwrapper {
     display: flex;
     flex-direction: row;
@@ -335,5 +364,10 @@ footer {
   .imgabout img {
     height: 300px;
     width: 400px;
+  }
+
+  .partners {
+    padding: 50px 10px;
+    background-color: var(--dark-color);
   }
 }

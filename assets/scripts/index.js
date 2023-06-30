@@ -3,39 +3,39 @@
 const speakers = [
   {
     image: './assets/images/speaker_01.png',
-    fullName: 'Yohai Benkler',
-    title: 'Berkman Professor of Entrepreneurial Legal Studies at Harvard Law School',
-    bio: 'Benkler studies commons-based peer production, and published his seminal book, The Wealth of Networks in 2006',
+    fullName: 'Florian Herrmann ',
+    title: 'Head of the State Chancellery for  Media',
+    bio: 'Benkler studies commons-based peer production, and published his seminal book.',
   },
   {
     image: './assets/images/speaker_02.png',
     fullName: 'SohYeong Noh',
-    title: 'Director of Art Centre Nabi and a board member of CC Korea',
-    bio: ' As the main venue for new media art production in Korea, Nabi promotes cross-disciplinary collaboration and understanding among science technology, humanities, and the arts.',
+    title: 'Director of Art in Ethipia',
+    bio: ' As the main venue for new media art production in ethipia, science technology, humanities, and the arts.',
   },
   {
     image: './assets/images/speaker_03.png',
-    fullName: 'Jeon Gilnam',
-    title: 'Professor Emeritus, Korea Advanced Institute of Science and Technology (KAIST)',
-    bio: 'He developed SDN, the first Internet protocol network in Asia, and led Korea first dedicated line Internet connection in 1990, opening the Internet era in earnest.',
+    fullName: 'Viola Amherd  ',
+    title: 'Vice President of Art',
+    bio: 'He developed music in the first dedicated in 1990, opening the Art era in earnest.',
   },
   {
     image: './assets/images/speaker_04.png',
     fullName: 'Julia Reda',
     title: 'Representative of the Young Pirates of Europe',
-    bio: 'European integration and youth participation in politics and democracy through online are key concerns, according to a report that could potentially impact changes to the European Union copyright laws in July.',
+    bio: 'European integration and youth participation to a report that could potentially impact changes to the European Union copyright laws in July.',
   },
   {
     image: './assets/images/speaker_05.png',
     fullName: 'Laila Tretikov',
     title: 'Wikimedia Foundation Executive Director',
-    bio: 'Laila Tretikow is executive director of the Wikimedia Foundation, the nonprofit that runs Wikipedia. Wikipedia is available for free every month in 290 languages to more than 100 million people, nearly half of the worlds population.',
+    bio: 'Wikipedia is available for free every month in 290 languages to more than 100 million people, nearly half of the worlds population.',
   },
   {
     image: './assets/images/speaker_06.png',
-    fullName: 'Ryan Merkley',
-    title: 'CEO of Creative Commons, former COO of the Mozilla Foundation',
-    bio: 'He led open source projects at the Mozilla Foundation and joined CC as CEO in 2014. Open government, open source, and other open movements have been actively carried out.',
+    fullName: 'Joachim Gauck  ',
+    title: 'Politics Section Head',
+    bio: 'Open government, open source, and other open movements have been actively carried out.',
   },
 ];
 
