@@ -3,7 +3,7 @@
 # 📗 Table of Contents
 
 - [📗 Table of Contents](#-table-of-contents)
-- [📖 Portfolio ](#-portfolio-)
+- [📖 AfricanDay2023Concert](#-African-Day2023-Concert)
   - [🛠 Built With ](#-built-with-)
     - [Tech Stack ](#tech-stack-)
     - [Key Features ](#key-features-)
@@ -21,9 +21,9 @@
   - [⭐️ Show your support ](#️-show-your-support-)
   - [🙏 Acknowledgments ](#-acknowledgments-)
   - [❓ FAQ ](#-faq-)
-  - [📝 License ](#-license-)
+  - [📝 License ](#-MIT-)
 
-# 📖 Portfolio <a name="about-project"></a>
+# 📖 African Day 2023 Concert held in Ethiopia <a name="about-project"></a>
 
 **African Day 2023 Concert held in Ethiopia** is Myfirst Capstone project Like real world Projects, It is about a concert for the music indestry to intertain, culture exchange and help adults, needy people, orphans and refugees made with html,css and javascript.
 <img src="desktop" width="70%" /><img src="mobile" width="30%" />

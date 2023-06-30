@@ -113,7 +113,6 @@ article.center-text {
 
 h1 {
   font-weight: 900;
-  font-size: 2rem;
   text-transform: uppercase;
   background-image: url(../images/text-bg.jpg);
   background-clip: inherit;
@@ -121,6 +120,8 @@ h1 {
   -webkit-text-fill-color: transparent;
   display: block;
   text-align: center;
+  font-size: 3rem;
+  line-height: 4.9rem;
 }
 
 .container {
@@ -128,9 +129,15 @@ h1 {
 }
 
 .container p {
-  font-size: 0.9rem;
-  font-weight: 600;
-  line-height: 1.6rem;
+  font-size: 1.4rem;
+  font-weight: 400;
+  line-height: 2.5rem;
+  color: #272a31;
+  border: 0.1rem solid #c8c8c8;
+  padding: 2rem 1.2rem;
+  background-color: #fff;
+  text-align: center;
+  margin-bottom: 2.5rem;
 }
 
 .submitabout {
@@ -173,6 +180,21 @@ h1 {
   overflow: hidden;
   transition: 0.5s ease;
   height: 100%;
+}
+
+.partners {
+  flex-wrap: wrap;
+  gap: 1rem;
+  padding-bottom: 15px;
+  padding-top: 1px;
+  justify-content: center;
+  align-items: center;
+}
+
+.group2 {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem;
 }
 
 @media screen and (max-width: 768px) {
@@ -248,6 +270,7 @@ footer {
     align-items: center;
     align-content: center;
     margin-top: 0;
+    z-index: 1;
   }
 
   .social-media ul {
@@ -306,16 +329,17 @@ footer {
     justify-content: space-around;
     align-items: center;
     padding: 0 1%;
+    z-index: 1;
   }
 
   .nav-bar-ul {
     display: flex;
     flex-direction: row;
-    width: auto;
-    height: auto;
+    flex-wrap: wrap;
     font-size: 1rem;
     position: initial;
-    margin: 2%;
+    margin: 0%;
+    margin-top: 0.6%;
   }
 
   #un-camp {
@@ -335,7 +359,9 @@ footer {
     font-size: 1rem;
     font-weight: 650;
     line-height: 1.6rem;
-    opacity: 0.9;
+    text-align: center;
+    width: 80%;
+    margin-left: 10%;
   }
 
   /* about page for desktop */
@@ -367,7 +393,15 @@ footer {
   }
 
   .partners {
-    padding: 50px 10px;
+    display: none;
+  }
+
+  .footer {
     background-color: var(--dark-color);
+    color: var(--secondary-white);
+    display: flex;
+    flex-wrap: wrap;
+    gap: 2rem;
+    justify-content: center;
   }
 }

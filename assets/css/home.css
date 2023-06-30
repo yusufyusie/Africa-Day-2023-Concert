@@ -128,7 +128,7 @@ h2 {
 
 h1 {
   font-weight: 900;
-  font-size: 2rem;
+  font-size: 3rem;
   text-transform: uppercase;
   background-image: url(../images/text-bg.jpg);
   background-clip: inherit;
@@ -136,8 +136,16 @@ h1 {
   -webkit-text-fill-color: transparent;
   display: block;
   background-size: cover;
-  margin-top: 10px;
+  margin-top: 1px;
   padding-bottom: 20px;
+}
+
+p {
+  display: block;
+  margin-block-start: 1em;
+  margin-block-end: 1em;
+  margin-inline-start: 0;
+  margin-inline-end: 0;
 }
 
 .title h2 {
@@ -153,11 +161,10 @@ h1 {
   margin-block-end: 1em;
   margin-inline-start: 0;
   margin-inline-end: 0;
-  border: solid #fff;
-  background-color: #d3d3d347;
   font-size: 0.9rem;
   font-weight: 600;
   line-height: 1.6rem;
+  background-color: var(--primary-white);
 }
 
 h3 {
@@ -178,6 +185,16 @@ h4 {
   margin-block-end: 1em;
   margin-inline-start: 0;
   margin-inline-end: 0;
+}
+
+h5 {
+  display: block;
+  font-size: 0.83em;
+  margin-block-start: 1.67em;
+  margin-block-end: 1.67em;
+  margin-inline-start: 0;
+  margin-inline-end: 0;
+  font-weight: bold;
 }
 
 .main-text-color {
@@ -229,7 +246,7 @@ h4 {
   display: flex;
   flex-direction: column;
   align-items: center;
-  gap: 1rem;
+  gap: 0.5rem;
   background-image: url(../images/pattern.jpg);
   background-repeat: repeat;
 }
@@ -243,9 +260,28 @@ h4 {
 
 .program_card {
   display: grid;
-  grid-template-columns: 15% 25% auto;
+  grid-template-columns: 15% 20% auto;
   align-items: center;
   background-color: #ffffff21;
+}
+
+.speaker-details p {
+  font-size: 1rem;
+  font-weight: 300;
+  line-height: 2rem;
+  color: #272a31;
+}
+
+.flex-speakers p {
+  padding: 0.5rem 0 0;
+}
+
+#program_details .program_card p {
+  color: var(--primary-white);
+  font-size: 0.875rem;
+  line-height: 1.25rem;
+  letter-spacing: 0.01563rem;
+  text-align: justify;
 }
 
 .more-program-desktop {
@@ -273,10 +309,6 @@ img {
   max-width: 100%;
 }
 
-.flex-speakers p {
-  padding: 0.5rem 0 0;
-}
-
 .flex-speakers h3 {
   margin: 0;
 }
@@ -286,7 +318,9 @@ img {
 }
 
 .speaker-details h3 {
-  margin-bottom: 0;
+  margin-bottom: 5px;
+  margin-top: 15%;
+  font-weight: 700;
 }
 
 .flex-speakers h4 {
@@ -295,7 +329,7 @@ img {
 }
 
 .speaker-details h4 {
-  color: var(--red);
+  color: var(--main-color);
   margin-top: 0;
 }
 
@@ -372,6 +406,7 @@ p.grid-par {
   display: flex;
   flex-direction: column;
   justify-content: center;
+  padding-top: 1%;
 }
 
 section.speaker-section {
@@ -397,7 +432,11 @@ a#more-program-desktop {
 
 /* Partners section */
 .partners {
-  padding: 50px 10px;
+  background-color: #414246;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
 
 .group2 {
@@ -482,12 +521,13 @@ footer {
     flex-direction: row;
     justify-content: flex-end;
     position: fixed;
-    width: 100vw;
+    width: 100%;
     align-items: center;
     align-content: center;
-    margin-top: -70px;
-    padding: 0 1%;
-    margin-left: -180px;
+    margin-top: -72px;
+    margin-left: -955px;
+    margin-right: -708px;
+    z-index: 1;
   }
 
   .social-media ul {
@@ -540,23 +580,25 @@ footer {
     all: unset;
     width: 100vw;
     position: fixed;
-    margin-top: -18px;
+    margin-top: -15px;
     background-color: #fff;
     display: flex;
     justify-content: space-around;
     align-items: center;
-    padding: 0%;
-    margin-left: -173px;
+    padding: 0 1%;
+    margin-left: -955px;
+    margin-right: -708px;
+    z-index: 1;
   }
 
   .nav-bar-ul {
     display: flex;
     flex-direction: row;
-    width: auto;
-    height: auto;
+    flex-wrap: wrap;
     font-size: 1rem;
     position: initial;
-    margin: 2%;
+    margin: 0%;
+    margin-top: 0.6%;
   }
 
   #un-camp {
@@ -579,7 +621,7 @@ footer {
 
   .underline {
     height: 1px;
-    width: 10%;
+    width: 8%;
     margin: 1rem auto;
     background-color: var(--main-color);
   }
@@ -592,16 +634,21 @@ footer {
   }
 
   .program_card {
-    display: grid;
-    grid-template-columns: 10rem;
-    grid-template-rows: 35% 10% auto;
-    justify-items: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 0.8125rem;
+    padding: 1.5rem 1.125rem;
+    flex: 1 0 0;
+    background: rgba(255, 255, 255, 0.1);
   }
 
-  .program-card p {
-    font-size: 1rem;
-    flex: 2;
-    line-height: 1.3rem;
+  #program_details .program_card p {
+    color: var(--primary-white);
+    text-align: center;
+    font-size: 0.875rem;
+    line-height: 1.25rem;
+    letter-spacing: 0.01563rem;
   }
 
   .more-program-mobile {
@@ -655,6 +702,11 @@ footer {
 
   /* Partner Section  */
   .partners {
-    padding: 0 calc(min(35px, 5%));
+    background-color: #414246;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 3rem 12%;
   }
 }
