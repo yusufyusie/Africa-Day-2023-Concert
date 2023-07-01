@@ -224,19 +224,9 @@ footer {
   background-color: #fff;
   align-items: center;
   padding: 1rem;
-  gap: 2rem;
-}
-
-.all-rights-detail {
-  display: none;
-}
-
-.all-rights-logo-mobile {
-  display: none;
-}
-
-.all-rights-logo {
-  width: 50%;
+  gap: 3rem;
+  justify-content: center;
+  margin: 0;
 }
 
 /* desktop version */
