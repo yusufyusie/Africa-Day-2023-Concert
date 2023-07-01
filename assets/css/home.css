@@ -115,7 +115,7 @@ article.center-text {
   display: flex;
   flex-direction: column;
   justify-content: center;
-  padding: calc(min(80px, 10%)) 0;
+  padding: calc(min(80px, 20%)) 0;
   gap: 10px;
 }
 
@@ -195,6 +195,7 @@ h5 {
   margin-inline-start: 0;
   margin-inline-end: 0;
   font-weight: bold;
+  padding-left: 2px;
 }
 
 .main-text-color {
@@ -263,6 +264,7 @@ h5 {
   grid-template-columns: 15% 20% auto;
   align-items: center;
   background-color: #ffffff21;
+  padding: 1px;
 }
 
 .speaker-details p {
@@ -282,6 +284,7 @@ h5 {
   line-height: 1.25rem;
   letter-spacing: 0.01563rem;
   text-align: justify;
+  padding-right: 1rem;
 }
 
 .more-program-desktop {
@@ -346,7 +349,7 @@ article#featured-speakers {
   grid-template-columns: 15% 29% auto;
   align-items: center;
   font-size: 0.65rem;
-  background-color: rgba(255, 255, 255, 0.1);
+  background-color: rgba(201, 27, 27, 0.1);
   overflow-wrap: break-word;
 }
 
@@ -441,6 +444,7 @@ a#more-program-desktop {
 
 .group2 {
   display: flex;
+  flex-wrap: wrap;
   flex-direction: column;
   padding: 20px;
   gap: 20px;
@@ -479,20 +483,11 @@ footer {
   background-color: #fff;
   align-items: center;
   padding: 1rem;
-  gap: 2rem;
+  gap: 3rem;
+  justify-content: center;
+  margin: 0;
 }
 
-.all-rights-detail {
-  display: none;
-}
-
-.all-rights-logo-mobile {
-  display: none;
-}
-
-.all-rights-logo {
-  width: 50%;
-}
 
 /* desktop version */
 @media only screen and (min-width: 768px) {
@@ -525,8 +520,7 @@ footer {
     align-items: center;
     align-content: center;
     margin-top: -72px;
-    margin-left: -955px;
-    margin-right: -708px;
+    margin-left: -11rem;
     z-index: 1;
   }
 
@@ -535,7 +529,7 @@ footer {
     list-style-type: none;
     align-items: center;
     gap: 1px;
-    padding: 0 1%;
+    padding: 0 13%;
   }
 
   .nav-bar-ul li {
@@ -585,9 +579,7 @@ footer {
     display: flex;
     justify-content: space-around;
     align-items: center;
-    padding: 0 1%;
-    margin-left: -955px;
-    margin-right: -708px;
+    margin-left: -11rem;
     z-index: 1;
   }
 
@@ -701,12 +693,14 @@ footer {
   }
 
   /* Partner Section  */
-  .partners {
-    background-color: #414246;
+  .group2 {
     display: flex;
-    flex-direction: column;
+    flex-wrap: wrap;
+    gap: 1rem;
+    flex-direction: row;
     justify-content: center;
     align-items: center;
-    padding: 3rem 12%;
+    padding-top: 10px;
+    padding-bottom: 15px;
   }
 }
