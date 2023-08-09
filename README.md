@@ -59,7 +59,7 @@
 
 ## 🚀 Live Demo <a name="live-demo"></a>
 
-[See My project Live here](https://yusufyusie.github.io/Africa-Day-2023-Concert)
+[See Live Demo here](https://yusufyusie.github.io/Africa-Day-2023-Concert)
 
 ## Video of the project description
 
